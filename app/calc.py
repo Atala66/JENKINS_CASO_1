@@ -36,5 +36,5 @@ class Calculator:
 
 if __name__ == "__main__":  # pragma: no cover
     calc = Calculator()
-    result = calc.add(2, 2)
+    result = calc.power(5, 8)
     print(result)
