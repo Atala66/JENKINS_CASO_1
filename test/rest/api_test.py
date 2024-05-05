@@ -63,6 +63,9 @@ class TestApi(unittest.TestCase):
     #         print('aaaa',response)
     #     except HTTPError as e:
     #         self.assertFalse(
+    
+
+    
     #            e != None
     #         )
 
