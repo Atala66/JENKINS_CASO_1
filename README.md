@@ -9,7 +9,9 @@ Este proyecto sirve también como fuente de código para el pipeline de Jenkins.
 
 
 # Error: ModuleNotFoundError: No module named 'app'
+# echo $PYTHONPATH
 # set PYTHONPATH=.
+# export PYTHONPATH=$(pwd)
 
 # Correr el fichero mas basico ( calculadora )
 python app\calc.py
@@ -30,7 +32,7 @@ pytest test\<ruta test>
 # Wireframe como STANDALAONE
  # "ruta donde vamos a alojar los mocks
 
-java -jar wiremock-standalone-3.5.4.jar --port {{  }}  --verbose --root-dir  D:\dev_ops_unir\helloworld\test\wiremock
+java -jar wiremock-standalone-3.5.4.jar --port {{  }}  --verbose --root-dir  D:/dev_ops_unir/helloworld/test/wiremock
 
 
 # URL FLASK: 5000

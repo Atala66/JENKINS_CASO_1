@@ -1,4 +1,5 @@
 import app
+#from app.util import convert_to_number
 
 
 class InvalidPermissions(Exception):
@@ -36,5 +37,5 @@ class Calculator:
 
 if __name__ == "__main__":  # pragma: no cover
     calc = Calculator()
-    result = calc.power(5, 8)
+    result = calc.add(5, 8)
     print(result)
