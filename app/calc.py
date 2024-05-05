@@ -1,4 +1,5 @@
 import app
+import math
 
 
 class InvalidPermissions(Exception):
@@ -24,6 +25,9 @@ class Calculator:
             raise TypeError("Division by zero is not possible")
 
         return x / y
+    
+    def sqrt(self, x):
+        return math.sqrt(x) 
 
     def power(self, x, y):
         self.check_types(x, y)
